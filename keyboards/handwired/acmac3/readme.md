@@ -1,6 +1,6 @@
 # handwired/acmac2
 
-![handwired/acmac2](imgur.com image replace me!)
+![handwired/acmac3](imgur.com image replace me!)
 
 *A short description of the keyboard/project*
 

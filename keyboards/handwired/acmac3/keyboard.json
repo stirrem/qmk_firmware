@@ -1,6 +1,6 @@
 {
     "manufacturer": "Lynton Ivins",
-    "keyboard_name": "handwired/acmac2",
+    "keyboard_name": "handwired/acmac3",
     "maintainer": "stirrem",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
@@ -14,13 +14,13 @@
     },
     "matrix_pins": {
         "cols": ["GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7",  "GP8" ],
-        "rows": ["GP9", "GP10", "GP11", "GP12", "GP13", "GP14"]
+        "rows": ["GP28", "GP27", "GP26", "GP22", "GP20", "GP23"]
     },
     "processor": "RP2040",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0001",
+        "pid": "0x0002",
         "vid": "0x6C69"
     },
     "layouts": {
@@ -69,6 +69,7 @@
                 {"matrix": [4, 4], "x": 4, "y": 4},
                 {"matrix": [4, 5], "x": 5, "y": 4},
                 {"matrix": [4, 6], "x": 6, "y": 4},
+                {"matrix": [4, 7], "x": 7, "y": 4},
 
                 {"matrix": [5, 0], "x": 0, "y": 5},
                 {"matrix": [5, 1], "x": 1, "y": 5},
@@ -76,9 +77,8 @@
                 {"matrix": [5, 3], "x": 3, "y": 5},
                 {"matrix": [5, 4], "x": 4, "y": 5},
                 {"matrix": [5, 5], "x": 5, "y": 5},
-                {"matrix": [5, 6], "x": 6, "y": 5},
-                {"matrix": [5, 7], "x": 7, "y": 5}
-            ]
+                {"matrix": [5, 6], "x": 6, "y": 5}
+             ]
         }
     }
 }
